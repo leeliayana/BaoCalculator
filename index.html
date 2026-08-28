@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BAO Enterprise Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg-logo"></div>
+
+<div class="container">
+
+<h1>BAO Enterprise</h1>
+<h2>Printing & Photocopy Calculator</h2>
+
+<div class="card">
+<h3>Photocopy</h3>
+
+<label>A4 Quantity</label>
+<input id="a4copy" type="number" value="0">
+
+<label>A3 Quantity</label>
+<input id="a3copy" type="number" value="0">
+
+</div>
+
+
+<div class="card">
+
+<h3>Printing</h3>
+
+<label>A4 Black & White</label>
+<input id="a4bw" type="number" value="0">
+
+<label>A4 Colour 10%</label>
+<input id="a410" type="number" value="0">
+
+<label>A4 Colour 50%</label>
+<input id="a450" type="number" value="0">
+
+<label>A4 Colour 100%</label>
+<input id="a4100" type="number" value="0">
+
+<label>A3 Black & White</label>
+<input id="a3bw" type="number" value="0">
+
+</div>
+
+
+</div>
+
+
+<div class="floating">
+
+<div class="total-box">
+Total: RM <span id="total">0.00</span>
+</div>
+
+<button onclick="resetCalc()">Reset</button>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
